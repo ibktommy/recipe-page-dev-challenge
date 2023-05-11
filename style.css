@@ -8,9 +8,145 @@
   --montserrat-font: 'Montserrat', sans-serif;
 
   --playfair-font: 'Playfair Display', serif;
+
+  --text-color-light: #4f4f4f;
+  
+  --text-color-bold: #333333;
 }
 
 html {
   font-family: var(--montserrat-font);
   font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+/* SECTION SHOWCASE */
+.showcase {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.showcase h2 {
+  font-family: var(--playfair-font);
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.showcase p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: var(--text-color-light);
+}
+
+.showcase-image {
+  width: 96rem;
+  height: 47rem;
+  border-radius: 1.2rem;
+}
+
+.showcase-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+/* INGREDIENTS/SERVICE SECTION  */
+
+.service {
+  display: flex;
+  margin-bottom: 3rem;
+  gap: 5rem;
+}
+
+.service-ingredients {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  flex-basis: 70%;
+}
+
+.service-ingredients h3 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: var(--text-color-bold);
+}
+
+.service-ingredients_recipe-one h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: var(--text-color-bold);
+}
+
+.service-ingredients_recipe-one_list .service-ingredients_recipe-one_list-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: .8rem;
+  gap: .8rem;
+}
+
+.service-ingredients_recipe-one_list-check p {
+  font-size: 1.6rem;
+  color: var(--text-color-bold);
+  font-weight: 400;
+}
+
+.service-summary {
+  height: max-content;
+  width: 21rem;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+  border-radius: 1.2rem;
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: space-between;
+}
+
+.service-summary_icon {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.service-summary_main span i{
+  font-size: 2rem;
+  color: #F2994A;
+}
+
+.service-summary_other span i{
+  font-size: 2rem;
+  color: var(--text-color-light);
+}
+
+.service-summary_details h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #bdbdbd;
+  text-transform: uppercase;
+}
+
+.service-summary_main .service-summary_icon .service-summary_details p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #f2994a;
+}
+
+.service-summary_other .service-summary_icon .service-summary_details p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--text-color-bold);
 }
