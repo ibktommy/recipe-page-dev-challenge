@@ -150,3 +150,47 @@ body {
   font-weight: 400;
   color: var(--text-color-bold);
 }
+
+/* INSTRUCTIONS SECTION  */
+.instructions {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.instructions h3 {
+  font-size: 2.4rem;
+  font-family: var(--playfair-font);
+  font-weight: 700;
+  color: var(--text-color-bold);
+}
+
+.instructions-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.instructions-list_detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.instructions-list_detail_number {
+  padding: 0 1.3rem;
+  background-color: #f2994a;
+  text-align: center;
+  line-height: 3.6rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  font-family: var(--playfair-font);
+  color: #fff;
+  border-radius: 6px;
+}
+
+.instructions-list_detail_text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--text-color-bold);
+}
