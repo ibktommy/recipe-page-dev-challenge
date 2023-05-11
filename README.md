@@ -38,9 +38,12 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
+- Where can I see your demo? <br>
+    The demo can be accessed by clicking on the @netlify link above, under the SOLUTION heading.
+- What was your experience? <br>
+  It was good, making the webpage responsive was a good one.
+- What have you learned/improved? <br>
+  I have improved on my CSS skills
 - Your wisdom? :)
 
 ### Built With
@@ -55,10 +58,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
-
-- [x] User story: This is a completed user stories
-- [ ] User story: This is a incompleted user stories
-- [ ] User story: This is a incompleted 2nd user stories
 
 ## How To Use
 
@@ -78,6 +77,6 @@ $ git clone https://github.com/ibktommy/recipe-page-dev-challenge
 
 ## Contact
 
-- Website [your-website.com](https://atomdev-portfolio.netlify.app)
+- Website [My-Website](https://atomdev-portfolio.netlify.app)
 - GitHub [@ibktommy](https://github.com/ibktommy)
-- Twitter [@ATOMQuadri](https://{twitter.com/ATOMQuadri})
+- Twitter [@ATOMQuadri](https://twitter.com/ATOMQuadri)
