@@ -1,0 +1,72 @@
+@media screen and (max-width: 1100px) {
+  .showcase-image {
+    width: 80%;
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  .showcase h2 {
+    font-size: 3rem;
+  }
+
+  .showcase p {
+    width: 80vw;
+  }
+
+  .showcase-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .service {
+    flex-direction: column-reverse;
+  }
+
+  .service-summary {
+    width: 100%;
+    box-shadow: none;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .service-summary_main {
+    position: absolute;
+    top: 0;
+    padding-top: 1rem;
+  }
+
+  .service-ingredients h3 {
+    font-size: 1.8rem;
+  }
+
+  .service-ingredients_recipe-one h4 {
+    font-size: 1.6rem;
+  }
+
+  .service-ingredients_recipe-one_list-check p {
+    font-size: 1.4rem;
+  }
+
+  .instructions-list_detail_number {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .instructions-list_detail_number p {
+    font-size: 1.8rem;
+  }
+
+  .source-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .source-text span{
+    font-size: 1.8rem;
+  }
+}

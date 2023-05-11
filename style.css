@@ -22,6 +22,7 @@ html {
 body {
   width: 100vw;
   min-height: 100vh;
+  background-color: #fafafa;
 }
 
 .container {
@@ -44,6 +45,17 @@ body {
 }
 
 .showcase p {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.showcase p i {
+  font-size: 1.4rem;
+  color: #c4c4c4;
+}
+
+.showcase p span {
   font-weight: 400;
   font-size: 1.5rem;
   font-style: italic;
@@ -209,7 +221,7 @@ body {
   margin-bottom: 10rem;
 }
 
-.source-text {
+.source-text  span{
   font-size: 2.4rem;
   color: #bdbdbd;
   font-style: italic;
